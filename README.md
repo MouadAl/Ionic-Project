@@ -4,3 +4,4 @@
 2) ` ionic serve `
 
 For mor infos about the project open the file: " Aloulou-Mouad-GI4-2022.pdf"
+https://github.com/MouadAl/Ionic-Project/blob/main/Aloulou-Mouad-GI4-2022.pdf
