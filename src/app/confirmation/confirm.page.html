@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Confirmation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+       <p>
+     you have successfully purchased
+     {{confirm.course}}
+     for {{confirm.price}}$</p>
+     <ion-row>
+       <ion-col>
+      <ion-button color ="secondary"(click)="Menu()" >More courses</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button color="secondary"(click)="CoursesList()"> My Learning-List</ion-button>
+    </ion-col>
+
+   
+     </ion-row>
+  
+</ion-content>

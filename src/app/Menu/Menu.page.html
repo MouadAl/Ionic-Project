@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <!-- <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar> -->
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row class="container ion-margin-top">
+      <h1 class="display-1 text-center font-sansita">{{ title }}</h1>
+    </ion-row>
+    <ion-row class="container ion-margin-top">
+      <h4 class="display-1 text-center font-sansita">6-month program to start your career as a DevOps engineer 😎
+      </h4>
+    </ion-row>
+
+    <ion-row class="containerr">
+      <h6 >Courses :</h6>
+    </ion-row>
+    <ion-row class="container" *ngFor="let training of trainingsList">
+      <ion-col class="">
+        <p> {{training.name}}</p>
+      </ion-col>
+      <ion-col class="col-2">
+        <ion-button  color="secondary" type="button" (click)="showInfo(training)">More Infos</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

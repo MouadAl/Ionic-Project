@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Mycourses</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-item *ngFor="let course of coursesList">
+  
+    <ion-row >
+      <ion-col>{{course.Name}}</ion-col>
+      <ion-col>  {{course.price}} $</ion-col>
+    </ion-row> 
+     
+</ion-item>
+<ion-button color="secondary" (click)="Menu()" >More courses</ion-button>
+
+</ion-content>
